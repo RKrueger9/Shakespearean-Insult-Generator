@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F63C6D51C0F6B01007C1CD6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F63C6D41C0F6B01007C1CD6 /* AppDelegate.swift */; };
+		3F63C6D71C0F6B01007C1CD6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F63C6D61C0F6B01007C1CD6 /* ViewController.swift */; };
+		3F63C6DA1C0F6B01007C1CD6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F63C6D81C0F6B01007C1CD6 /* Main.storyboard */; };
+		3F63C6DC1C0F6B01007C1CD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F63C6DB1C0F6B01007C1CD6 /* Assets.xcassets */; };
+		3F63C6DF1C0F6B01007C1CD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F63C6DD1C0F6B01007C1CD6 /* LaunchScreen.storyboard */; };
+		3F63C6EA1C0F6B02007C1CD6 /* Politically_CorrectnessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F63C6E91C0F6B02007C1CD6 /* Politically_CorrectnessTests.swift */; };
+		3F63C6F51C0F6B02007C1CD6 /* Politically_CorrectnessUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F63C6F41C0F6B02007C1CD6 /* Politically_CorrectnessUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F63C6E61C0F6B02007C1CD6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F63C6C91C0F6B01007C1CD6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F63C6D01C0F6B01007C1CD6;
+			remoteInfo = "Politically Correctness";
+		};
+		3F63C6F11C0F6B02007C1CD6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F63C6C91C0F6B01007C1CD6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F63C6D01C0F6B01007C1CD6;
+			remoteInfo = "Politically Correctness";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F63C6D11C0F6B01007C1CD6 /* Politically Correctness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Politically Correctness.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F63C6D41C0F6B01007C1CD6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F63C6D61C0F6B01007C1CD6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F63C6D91C0F6B01007C1CD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F63C6DB1C0F6B01007C1CD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F63C6DE1C0F6B01007C1CD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F63C6E01C0F6B01007C1CD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F63C6E51C0F6B02007C1CD6 /* Politically CorrectnessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Politically CorrectnessTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F63C6E91C0F6B02007C1CD6 /* Politically_CorrectnessTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Politically_CorrectnessTests.swift; sourceTree = "<group>"; };
+		3F63C6EB1C0F6B02007C1CD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F63C6F01C0F6B02007C1CD6 /* Politically CorrectnessUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Politically CorrectnessUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F63C6F41C0F6B02007C1CD6 /* Politically_CorrectnessUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Politically_CorrectnessUITests.swift; sourceTree = "<group>"; };
+		3F63C6F61C0F6B02007C1CD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F63C6CE1C0F6B01007C1CD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F63C6E21C0F6B02007C1CD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F63C6ED1C0F6B02007C1CD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F63C6C81C0F6B01007C1CD6 = {
+			isa = PBXGroup;
+			children = (
+				3F63C6D31C0F6B01007C1CD6 /* Politically Correctness */,
+				3F63C6E81C0F6B02007C1CD6 /* Politically CorrectnessTests */,
+				3F63C6F31C0F6B02007C1CD6 /* Politically CorrectnessUITests */,
+				3F63C6D21C0F6B01007C1CD6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F63C6D21C0F6B01007C1CD6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F63C6D11C0F6B01007C1CD6 /* Politically Correctness.app */,
+				3F63C6E51C0F6B02007C1CD6 /* Politically CorrectnessTests.xctest */,
+				3F63C6F01C0F6B02007C1CD6 /* Politically CorrectnessUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F63C6D31C0F6B01007C1CD6 /* Politically Correctness */ = {
+			isa = PBXGroup;
+			children = (
+				3F63C6D41C0F6B01007C1CD6 /* AppDelegate.swift */,
+				3F63C6D61C0F6B01007C1CD6 /* ViewController.swift */,
+				3F63C6D81C0F6B01007C1CD6 /* Main.storyboard */,
+				3F63C6DB1C0F6B01007C1CD6 /* Assets.xcassets */,
+				3F63C6DD1C0F6B01007C1CD6 /* LaunchScreen.storyboard */,
+				3F63C6E01C0F6B01007C1CD6 /* Info.plist */,
+			);
+			path = "Politically Correctness";
+			sourceTree = "<group>";
+		};
+		3F63C6E81C0F6B02007C1CD6 /* Politically CorrectnessTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F63C6E91C0F6B02007C1CD6 /* Politically_CorrectnessTests.swift */,
+				3F63C6EB1C0F6B02007C1CD6 /* Info.plist */,
+			);
+			path = "Politically CorrectnessTests";
+			sourceTree = "<group>";
+		};
+		3F63C6F31C0F6B02007C1CD6 /* Politically CorrectnessUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F63C6F41C0F6B02007C1CD6 /* Politically_CorrectnessUITests.swift */,
+				3F63C6F61C0F6B02007C1CD6 /* Info.plist */,
+			);
+			path = "Politically CorrectnessUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F63C6D01C0F6B01007C1CD6 /* Politically Correctness */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F63C6F91C0F6B02007C1CD6 /* Build configuration list for PBXNativeTarget "Politically Correctness" */;
+			buildPhases = (
+				3F63C6CD1C0F6B01007C1CD6 /* Sources */,
+				3F63C6CE1C0F6B01007C1CD6 /* Frameworks */,
+				3F63C6CF1C0F6B01007C1CD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Politically Correctness";
+			productName = "Politically Correctness";
+			productReference = 3F63C6D11C0F6B01007C1CD6 /* Politically Correctness.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F63C6E41C0F6B02007C1CD6 /* Politically CorrectnessTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F63C6FC1C0F6B02007C1CD6 /* Build configuration list for PBXNativeTarget "Politically CorrectnessTests" */;
+			buildPhases = (
+				3F63C6E11C0F6B02007C1CD6 /* Sources */,
+				3F63C6E21C0F6B02007C1CD6 /* Frameworks */,
+				3F63C6E31C0F6B02007C1CD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F63C6E71C0F6B02007C1CD6 /* PBXTargetDependency */,
+			);
+			name = "Politically CorrectnessTests";
+			productName = "Politically CorrectnessTests";
+			productReference = 3F63C6E51C0F6B02007C1CD6 /* Politically CorrectnessTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F63C6EF1C0F6B02007C1CD6 /* Politically CorrectnessUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F63C6FF1C0F6B02007C1CD6 /* Build configuration list for PBXNativeTarget "Politically CorrectnessUITests" */;
+			buildPhases = (
+				3F63C6EC1C0F6B02007C1CD6 /* Sources */,
+				3F63C6ED1C0F6B02007C1CD6 /* Frameworks */,
+				3F63C6EE1C0F6B02007C1CD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F63C6F21C0F6B02007C1CD6 /* PBXTargetDependency */,
+			);
+			name = "Politically CorrectnessUITests";
+			productName = "Politically CorrectnessUITests";
+			productReference = 3F63C6F01C0F6B02007C1CD6 /* Politically CorrectnessUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F63C6C91C0F6B01007C1CD6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = RKrueger;
+				TargetAttributes = {
+					3F63C6D01C0F6B01007C1CD6 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = RF3KK2425J;
+					};
+					3F63C6E41C0F6B02007C1CD6 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = RF3KK2425J;
+						TestTargetID = 3F63C6D01C0F6B01007C1CD6;
+					};
+					3F63C6EF1C0F6B02007C1CD6 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = RF3KK2425J;
+						TestTargetID = 3F63C6D01C0F6B01007C1CD6;
+					};
+				};
+			};
+			buildConfigurationList = 3F63C6CC1C0F6B01007C1CD6 /* Build configuration list for PBXProject "Politically Correctness" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F63C6C81C0F6B01007C1CD6;
+			productRefGroup = 3F63C6D21C0F6B01007C1CD6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F63C6D01C0F6B01007C1CD6 /* Politically Correctness */,
+				3F63C6E41C0F6B02007C1CD6 /* Politically CorrectnessTests */,
+				3F63C6EF1C0F6B02007C1CD6 /* Politically CorrectnessUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F63C6CF1C0F6B01007C1CD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F63C6DF1C0F6B01007C1CD6 /* LaunchScreen.storyboard in Resources */,
+				3F63C6DC1C0F6B01007C1CD6 /* Assets.xcassets in Resources */,
+				3F63C6DA1C0F6B01007C1CD6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F63C6E31C0F6B02007C1CD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F63C6EE1C0F6B02007C1CD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F63C6CD1C0F6B01007C1CD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F63C6D71C0F6B01007C1CD6 /* ViewController.swift in Sources */,
+				3F63C6D51C0F6B01007C1CD6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F63C6E11C0F6B02007C1CD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F63C6EA1C0F6B02007C1CD6 /* Politically_CorrectnessTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F63C6EC1C0F6B02007C1CD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F63C6F51C0F6B02007C1CD6 /* Politically_CorrectnessUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F63C6E71C0F6B02007C1CD6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F63C6D01C0F6B01007C1CD6 /* Politically Correctness */;
+			targetProxy = 3F63C6E61C0F6B02007C1CD6 /* PBXContainerItemProxy */;
+		};
+		3F63C6F21C0F6B02007C1CD6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F63C6D01C0F6B01007C1CD6 /* Politically Correctness */;
+			targetProxy = 3F63C6F11C0F6B02007C1CD6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F63C6D81C0F6B01007C1CD6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F63C6D91C0F6B01007C1CD6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F63C6DD1C0F6B01007C1CD6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F63C6DE1C0F6B01007C1CD6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F63C6F71C0F6B02007C1CD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F63C6F81C0F6B02007C1CD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F63C6FA1C0F6B02007C1CD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Politically Correctness/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Krueger.Politically-Correctness";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3F63C6FB1C0F6B02007C1CD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Politically Correctness/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Krueger.Politically-Correctness";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3F63C6FD1C0F6B02007C1CD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Politically CorrectnessTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Krueger.Politically-CorrectnessTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Politically Correctness.app/Politically Correctness";
+			};
+			name = Debug;
+		};
+		3F63C6FE1C0F6B02007C1CD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Politically CorrectnessTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Krueger.Politically-CorrectnessTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Politically Correctness.app/Politically Correctness";
+			};
+			name = Release;
+		};
+		3F63C7001C0F6B02007C1CD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Politically CorrectnessUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Krueger.Politically-CorrectnessUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Politically Correctness";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		3F63C7011C0F6B02007C1CD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Politically CorrectnessUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Krueger.Politically-CorrectnessUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Politically Correctness";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F63C6CC1C0F6B01007C1CD6 /* Build configuration list for PBXProject "Politically Correctness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F63C6F71C0F6B02007C1CD6 /* Debug */,
+				3F63C6F81C0F6B02007C1CD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F63C6F91C0F6B02007C1CD6 /* Build configuration list for PBXNativeTarget "Politically Correctness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F63C6FA1C0F6B02007C1CD6 /* Debug */,
+				3F63C6FB1C0F6B02007C1CD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3F63C6FC1C0F6B02007C1CD6 /* Build configuration list for PBXNativeTarget "Politically CorrectnessTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F63C6FD1C0F6B02007C1CD6 /* Debug */,
+				3F63C6FE1C0F6B02007C1CD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3F63C6FF1C0F6B02007C1CD6 /* Build configuration list for PBXNativeTarget "Politically CorrectnessUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F63C7001C0F6B02007C1CD6 /* Debug */,
+				3F63C7011C0F6B02007C1CD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F63C6C91C0F6B01007C1CD6 /* Project object */;
+}
