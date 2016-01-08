@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="tXs-2f-U1O">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Shakespearean_Insult_Generator" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +15,110 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iJ5-xo-IlF">
+                                <rect key="frame" x="153" y="500" width="295" height="64"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                <state key="normal" title="Generate Insult">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="3uI-Te-W5d" kind="show" identifier="insultTransfer" id="Kk3-2Y-j1e"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="shakespeare" translatesAutoresizingMaskIntoConstraints="NO" id="Z7W-3n-LUD">
+                                <rect key="frame" x="143" y="164" width="314" height="321"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="321" id="bAZ-tb-4rZ"/>
+                                    <constraint firstAttribute="width" constant="314" id="y1e-Hw-Nyv"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Shakespearean Insult Generator" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O9q-9x-WBI">
+                                <rect key="frame" x="86" y="64" width="428" height="75"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="75" id="6kz-iJ-Ojv"/>
+                                    <constraint firstAttribute="width" constant="425" id="Ke1-cj-WMO"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Z7W-3n-LUD" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="74G-CN-2dQ"/>
+                            <constraint firstItem="O9q-9x-WBI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dAe-Ah-OsH"/>
+                            <constraint firstItem="iJ5-xo-IlF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dcA-1j-zDT"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="Jen-df-elj"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1100" y="284"/>
+        </scene>
+        <!--View Controller2-->
+        <scene sceneID="BEm-1h-V62">
+            <objects>
+                <viewController id="3uI-Te-W5d" customClass="ViewController2" customModule="Shakespearean_Insult_Generator" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="psp-E6-9fz"/>
+                        <viewControllerLayoutGuide type="bottom" id="z5w-Qk-kGL"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="wB4-ma-fHk">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="aIg-jy-U9c">
+                                <rect key="frame" x="98" y="85" width="404" height="144"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7fe-Sa-n2k">
+                                <rect key="frame" x="162" y="257" width="276" height="276"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="276" id="Aqc-zK-yzG"/>
+                                    <constraint firstAttribute="height" constant="276" id="Dps-Ju-Kk6"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="7fe-Sa-n2k" firstAttribute="centerX" secondItem="wB4-ma-fHk" secondAttribute="centerX" id="ZWy-Hv-kdH"/>
+                            <constraint firstItem="aIg-jy-U9c" firstAttribute="centerX" secondItem="wB4-ma-fHk" secondAttribute="centerX" id="iKe-xq-SX8"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="pictureImageView" destination="7fe-Sa-n2k" id="Bb3-8F-xxs"/>
+                        <outlet property="textView" destination="aIg-jy-U9c" id="emA-n9-hQB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LtK-DF-22Q" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1786" y="284"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="meK-QK-adv">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="tXs-2f-U1O" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="zYl-Lz-cJh">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="gzW-Wf-cnx"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XMi-sQ-KEX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="416" y="284"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="shakespeare" width="204" height="247"/>
+    </resources>
 </document>
